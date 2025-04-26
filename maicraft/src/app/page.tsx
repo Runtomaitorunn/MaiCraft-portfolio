@@ -1,7 +1,7 @@
 import React from 'react';
 import homeSrc from "/public/home.jpg";
 import {Metadata} from "next";
-import Hero from "@/components/hero"
+import Hero from "@/components/hero";
 
 export const metadata: Metadata = {
   title: 'Home',
