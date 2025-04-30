@@ -1,7 +1,8 @@
 import React from 'react';
-import homeSrc from "/public/home.jpg";
+import Image from 'next/image';
+import homeSrc from '/public/home.jpg';
 import {Metadata} from "next";
-import Hero from "@/components/hero";
+import Hero from "@/src/components/hero";
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -9,6 +10,6 @@ export const metadata: Metadata = {
 
 export default function Page(){
   return(
-    <Hero imgUrl={homeSrc} altTxt="Home" content = "MaiCraft"/>
+    <Hero imgUrl="/home.webp" altTxt="Home" content = "MaiCraft"/>
   );
 }
