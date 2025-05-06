@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 
 export default function Page(){
   return(
-    <Hero imgUrl="/placeholder.jpeg" altTxt="BBVR" content = "My Projejct - BeatBoxVR"/>
+    <Hero imgUrl="/placeholder.jpg" altTxt="BBVR" content = "My Projejct - BeatBoxVR"/>
   );
 }
